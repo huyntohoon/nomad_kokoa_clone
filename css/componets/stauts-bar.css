@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .status-bar__column {
   width: 33%;
@@ -21,24 +24,4 @@
 
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-#login-form input {
-  padding: 15px 0px;
-  border: none;
-  font-size: 18px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 25px;
-}
-#login-form iput::placeholder {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-#login-form input:focus {
-  border-color: rgba(0, 0, 0, 0.4);
 }
