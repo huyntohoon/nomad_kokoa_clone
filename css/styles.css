@@ -2,10 +2,15 @@
 @import "reset.css";
 @import "variables.css";
 
-@import "componets/stauts-bar.css";
-@import "componets/login.css";
-@import "componets/nav-ber.css";
-@import "componets/screen-header.css";
+/*screen */
+@import "screen/login.css";
+@import "screen/friends.css";
+/*componets*/
+@import "components/stauts-bar.css";
+@import "components/nav-ber.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+
 body {
   font-family: "Open Sans", sans-serif;
   height: 10000px;
