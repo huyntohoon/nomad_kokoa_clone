@@ -25,3 +25,11 @@
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
+.status-bar__dot {
+  background-color: tomato;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  rightt: 300px;
+}
