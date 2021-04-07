@@ -47,3 +47,21 @@
   margin-bottom: 10px;
   display: block;
 }
+.user-component__text {
+  position: relative;
+}
+.user-component_mark {
+  border: 1px solid tomato;
+  align-items: center;
+  display: flex;
+  color: tomato;
+  justify-content: center;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: -20px;
+  padding: 2px;
+  border-radius: 100%;
+  font-size: 14px;
+  top: 30px;
+}
